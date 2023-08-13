@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".ActivityIngresar">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:srcCompat="@drawable/person" />
+
+    <EditText
+        android:id="@+id/txtid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="id"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="670dp"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtvnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <EditText
+        android:id="@+id/txtnomb"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/editortexto"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/txtvdescrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <EditText
+        android:id="@+id/txtdescrip"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/editortexto"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <Space
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnfoto"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#CDBA0E"
+            android:text="Tomar Foto"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="523dp" />
+
+        <Space
+
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btningresar"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#CDBA0E"
+            android:text="a SQLite"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="523dp" />
+
+        <Space
+
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <Space
+
+            android:layout_width="365dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnlista"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/portapapeles"
+            android:textAlignment="gravity" />
+
+    </LinearLayout>
+
+</LinearLayout>

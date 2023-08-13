@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageCapture</string>
+    <string name="PrinterName">Nombres</string>
+    <string name="PrinterManufacturer">Descripcion</string>
+    <string name="PrinterImage">Imagen</string>
+
+</resources>
