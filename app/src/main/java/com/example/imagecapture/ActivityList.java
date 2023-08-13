@@ -38,12 +38,14 @@ public class ActivityList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        list = findViewById(R.id.Lista);
+        list = (ListView) findViewById(R.id.Lista);
 
         ObtenerTabla();
 
         CustomAdapter apd = new CustomAdapter(this, listpersonas);
         list.setAdapter(apd);
+
+
     }
 
     private void ObtenerTabla() {
